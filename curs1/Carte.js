@@ -1,10 +1,16 @@
 class Carte {
-    constructor(titlu, autor, editura, an, pret) {
-        this.titlu = titlu;
-        this.autor = autor;
-        this.editura = editura;
-        this.an = an;
-        this.pret = pret;
+    constructor(titluCarte, autorCarte, edituraCarte, anCarte, pretCarte) {
+        this.titlu = titluCarte;
+        this.autor = autorCarte;
+        this.editura = edituraCarte;
+        this.an = anCarte;
+        this.pret = pretCarte;
+    }
+    obtineTitlu(){
+        console.log(`Titlul cartii este ${this.titlu}`)
+    }
+    afiseazaInfo(){
+        return `Detalii despre aceasta carte sunt: ${this.titlu}, ${this.autor}, ${this.pret}`;
     }
     deschidCartea() {
         console.log('Am deschis cartea la pagina 15');

@@ -32,15 +32,16 @@
         const paine = produsNou("Paine", 8, 36, "2020-02-22");
         paine.afiseaza();
         paine.cumpara();
-        console.log(paine.nume);
-        console.log(paine["nume"]);
+        console.log(paine);
+        //console.log(paine["nume"]);
         paine.nume = "Paine cu maia";
-        console.log(paine["nume"]);
+        //console.log(paine["nume"]);
         // definim o noua proprietate
         paine.gramaj = "500";
-        console.log(paine.gramaj);
+       // console.log(paine.gramaj);
         // definim un nou produs
         const apa = produsNou("apa plata", 3, 100, "2022-01-05");
+        console.log('apa :>> ', apa);
     </script>
 </body>
 
