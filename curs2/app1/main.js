@@ -26,3 +26,9 @@ let triangle1 = new Triangle(myCanvas.ctx, myCanvas.listId, 160, 320, 60, 'blue'
 triangle1.draw();
 triangle1.reportArea();
 triangle1.reportPerimeter();
+
+// draw a triangle
+let triangle2 = new Triangle(myCanvas.ctx, myCanvas.listId, 80, 220, 220, 'green');
+triangle2.draw();
+// triangle2.reportArea();
+// triangle2.reportPerimeter();
