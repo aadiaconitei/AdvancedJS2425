@@ -6,7 +6,7 @@ describe("Calculator tests", () => {
     var result = mathOperations.sum(1, 2)
 
     // assert
-    expect(result).toBe(3);
+    expect(result).toBe(4);
   });
 
   test("subtracting 2 from 10 should return 8", () => {

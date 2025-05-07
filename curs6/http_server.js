@@ -16,7 +16,7 @@ let server = http.createServer( function (req, res) {
             },
         ); 
         
-        res.write( 'Hello World!' ); // Response content
+        res.write( '<b>Hello World!</b>' ); // Response content
         res.end(); // End response
 });
 server.listen(port, host, () => { 

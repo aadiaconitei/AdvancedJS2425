@@ -13,14 +13,17 @@
 // Pentru a testa toate metodele putem folosi POSTMAN https://www.postman.com/
 
 const express = require('express')
+const bodyParser = require('body-parser')
 const app = express()
+
+app.engine('html', require('ejs').renderFile);
 // Parses the body for POST, PUT, DELETE, etc.
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 // GET
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello World Express!'))
 
-// app.get('/blog', (req, res) => res.render('blog.html'))
+app.get('/blog', (req, res) => res.render('blog.html'))
 
 
 // POST

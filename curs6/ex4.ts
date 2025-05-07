@@ -8,7 +8,7 @@ interface Person1 {
     GetAge():number;  
 }  
 // o clasa poate implementa mai multe interfete  
-class Employee implements Person1 {  
+ class Employee implements Person1 {  
     firstName: string;  
     lastName: string;  
     age:number;  

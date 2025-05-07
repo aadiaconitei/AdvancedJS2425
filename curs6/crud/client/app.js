@@ -79,10 +79,10 @@ $(document).ready(function ($) {
         let ajxReq = $.ajax({
             type: 'POST',
             data: {
-                "name": "teresa may5",
-                "password": "parliament5",
-                "profession": "brexit killer5",
-                "id": 5
+                "name": "Adi",
+                "password": "123456",
+                "profession": "dev",
+                "id": 6
             },
             url: 'http://localhost:3001/users'
         });
@@ -104,9 +104,9 @@ $(document).ready(function ($) {
         let ajxReq = $.ajax({
             type: 'PUT',
             data: {
-                "name": "Nume editat",
-                "password": "parolaeditat",
-                "profession": "profesieeditat",
+                "name": "Nume editat 22",
+                "password": "parolaeditat22",
+                "profession": "profesieeditat22",
                 "id": 1
             },
             url: 'http://localhost:3001/users/1'

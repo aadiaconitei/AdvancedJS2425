@@ -11,4 +11,7 @@ class StudentNou {
 }
 
 let studentnou: StudentNou = new StudentNou(1, "JoeRoot");
+studentnou.studCode = 3;
+
 console.log(studentnou.display());
+
